@@ -1,0 +1,411 @@
+<!-- PROBLEM BASED ASSIGNMENT
+ 1. NUR ALEEYA FARISYA BINTI SUGENG RIYADI
+ 2. WINNIE TENING WAN -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Package Booking System</title>
+
+    <!--jQuery Mobile CSS-->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+    <!--jQuery & jQuery Mobile JS-->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    
+    
+    <!-- JS -->
+     <script src="js/script.js"></script>
+
+</head>
+<body>
+    <!-- HOME PAGE -->
+     <div data-role="page" id="home">
+
+        <!-- HEADER -->
+         <div data-role="header" data-theme="b">
+            <h1>WonderWild</h1>
+         </div>
+
+         <!-- Navigation -->
+          <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" class="ui-btn-active" data-icon="home"> Home </a> 
+                </li>
+                <li>
+                    <a href="#tourpackage" data-icon="bullets"> Tour Packages </a>
+                </li>
+                <li>
+                    <a href="#booking" data-icon="shop"> Booking </a>
+                </li>
+                <li>
+                    <a href="#contact" data-icon="phone"> Contact </a>
+                </li>
+            </ul>
+          </div>
+        <!--HOME CONTENT-->
+        <div data-role="content">
+
+            <h2>Hello ! Welcome to WonderWild. </h2>
+            <p>Discover amazing destinations and create unforgettable travel experiences with us.</p>
+            <h3>Featured Destinations</h3>
+
+            <!-- Card Grid -->
+            <div class="card-grid">
+
+                <!-- Card 1, Sarawak Cultual Village -->
+                 <div class="card">
+                <img src="img/cultural village.jpg" alt="Sarawak Cultural Village">
+                <h3>Sarawak Cultural Village</h3>
+                <p>Experience the rich cultural heritage, traditional houses, and vibrant performance of Sarawak.</p>
+             </div>
+
+            <!-- Card 2, Mount Santubong -->
+            <div class="card">
+                <img src="img/gunung santubong.jpeg" alt="Mount Santubong">
+                <h3>Mount Santubong</h3>
+                <p>Discover scenic jungle trails, refreshing waterfalls, and stunning views from the summit.</p>
+            </div>
+
+            <!-- Card 3, Niah Park -->
+            <div class="card">
+                <img src="img/niah.jpeg" alt="Niah National Park">
+                <h3>Niah National Park</h3>
+                <p>A world-renowned archeological site featuring historic caves and scenic jungle boardwalks.</p>
+            </div>
+
+            <!-- Card 4, Semenggoh Wildlife Centre -->
+            <div class="card">
+                <img src="img/semenggoh.webp" alt="Semenggoh Wildlife Centre">
+                <h3>Semenggoh Wildlife Centre</h3>
+                <p>An unforgettable eco-tourism experience featuring Borneo's iconic endangered primates.</p>
+            </div>
+
+            <!-- Card 5, Tumbina Park -->
+            <div class="card">
+                <img src="img/taman tumbina.jpeg" alt="Tumbina Park">
+                <h3>Tumbina Park</h3>
+                <p>Discover scenic walking trails, flamingo ponds, and fascinating local wildlife in Bintulu.</p>
+            </div>
+
+            <!-- Card 6, Green Ecofarm -->
+            <div class="card">
+                <img src="img/green ecofarm.jpg" alt="Green Ecofarm">
+                <h3>Green Ecofarm</h3>
+                <p>A sustainable eco-farm offering organic produce, peaceful nature walks, and hands-on farming experiences.</p>
+           </div>
+     </div>
+</div>
+     
+        <!-- FOOTER -->
+        <div data-role="footer" data-theme="b">
+            <h4 class="footer-text">&copy; 2026 WonderWild</h4>
+        </div>
+</div>
+<!--PAGE 2-->
+<!--TOUR PACKAGES-->
+<div data-role="page" id="tourpackage">
+    <!--Header-->
+    <div data-role="header" data-theme="b">
+        <a href="#tourpackage" data-icon="bullets" data-iconpos="notext">
+        </a>
+        <h1>Tour Packages</h1>
+    </div>
+
+    <!--Navigation-->
+    <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" data-icon="home"> Home </a> 
+                </li>
+                <li>
+                    <a href="#tourpackage" class="ui-btn-active" data-icon="bullets"> Tour Packages </a>
+                </li>
+                <li>
+                    <a href="#booking" data-icon="shop"> Booking </a>
+                </li>
+            <li>
+                <a href="#contact" data-icon="phone">Contact</a>
+            </li>
+        </ul>
+          </div>
+    <!--TOUR PACKAGES CONTENT-->
+    <div data-role="content" class="ui-content">
+        <h2> Our Fun Destinations</h2>
+        <p>
+            Click on any destination below to view more details.
+        </p>
+
+        <!--Destination Lists-->
+        <ul data-role="listview" data-inset="true" class="product-list">
+
+        
+            <li>
+                <a href="#" class="destination-item">
+                    <img src="img/cultural village.jpg" alt="Sarawak Cultural Village">
+                    <h2 class="destination-name">Sarawak Cultural Village</h2>
+                    <p class="destination-description">
+                        Located in: Kuching, Sarawak <br>
+                        Price : RM200 / Person <br>
+                        * The price is included with entrance fee <br>
+                        * Food is not provided <br>
+
+                        Trip Duration: 2 Days 1 Night
+                    </p>
+                </a>
+            </li> 
+
+            <li>
+                <a href="#" class="destination-item">
+                    <img src="img/gunung santubong.jpeg" alt="Mount Santubong">
+                    <h2 class="destination-name">Mount Santubong</h2>
+                    <p class="destination-description">
+                        Located in: Kuching, Sarawak <br>
+                        Price: <br>
+                        RM 25.00 / Person <br>
+                        RM 350 / Group (5-6 Persons) <br>
+
+                        Trip Duration : 1 Day <br>
+
+                        "Attention hikers: Inappropriate clothing (such as jeans or heavy cotton shirts) is strongly discouraged. Please ensure you wear athletic wear or specialized hiking apparel that is lightweight, flexible, and breathable for your own safety and a smooth climb."
+                    </p>
+                </a>
+            </li>
+
+             <li>
+                <a href="#" class="destination-item">
+                    <img src="img/niah.jpeg" alt="Niah Park">
+                    <h2 class="destination-name">Niah Park</h2>
+                    <p class="destination-description">
+                        Located in: Miri, Sarawak <br>
+                        Price:  <br>
+                        RM370.00 / Person - Adult <br>
+                        RM185.00 / Person - Child <br>
+
+                        Trip Duration : 1 Day<br>
+
+                        Explore the historic caves, rainforest, and archaeological attractions of Niah Park.
+                    </p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="destination-item">
+                    <img src="img/semenggoh.webp" alt="Semenggoh Wildlife Centre">
+                    <h2 class="destination-name">Semenggoh Wildlife Centre</h2>
+                    <p class="destination-description">
+                        Located in: Kuching, Sarawak <br>
+                        Price : RM340.00 / Person <br>
+
+                        Trip Duration : 1 Day <br>
+                    </p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="destination-item">
+                    <img src="img/taman tumbina.jpeg" alt="Tumbina Park">
+                    <h2 class="destination-name">Tumbina Park</h2>
+                    <p class="destination-description">
+                        Located in: Bintulu, Sarawak <br>
+                        Price : RM150.00 / Person <br>
+
+                        Trip Duration : 1 Day <br>
+                    </p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="destination-item">
+                    <img src="img/green ecofarm.jpg" alt="Green Ecofarm">
+                    <h2 class="destination-name">Green Ecofarm</h2>
+                    <p class="destination-description">
+                        Located in: Sibu, Sarawak <br>
+                        Price : RM200 / Person <br>
+
+                        Trip Duration : 1 Day <br>
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!-- FOOTER -->
+        <div data-role="footer" data-theme="b">
+            <h4 class="footer-text">&copy; 2026 WonderWild</h4>
+        </div>
+</div>
+
+<!--PAGE 3-->
+<!--BOOKING-->
+
+<div data-role="page" id="booking">
+
+    <!-- HEADER -->
+    <div data-role="header" data-theme="b">
+        <a href="#booking" data-icon="shop" data-iconpos="notext"></a>
+        <h1>Booking</h1>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div data-role="navbar" >
+        <ul>
+            <li>
+                <a href="#home" data-icon="home">Home</a>
+            </li>
+
+            <li>
+                <a href="#tourpackage" data-icon="bullets">Tour Packages</a>
+            </li>
+
+            <li>
+                <a href="#booking" class="ui-btn-active" data-icon="shop">Booking</a>
+            </li>
+
+            <li>
+                <a href="#contact" data-icon="phone">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- BOOKING CONTENT -->
+    <div data-role="content">
+
+        <h2>Book Your Tour</h2>
+
+        <form id="bookingForm">
+
+            <label for="bookingName">Name:</label>
+            <input type="text"
+                   id="bookingName"
+                   name="bookingName"
+                   placeholder="Your Name"
+                   required>
+                
+            <label for="bookingNumber">Phone Number:</label>
+            <input type="number"
+                   id="bookingNumber"
+                   name="bookingNumber"
+                   placeholder="Your Phone Number"
+                   required>
+
+            <label for="bookingEmail">Email:</label>
+            <input type="email"
+                   id="bookingEmail"
+                   name="bookingEmail"
+                   placeholder="you@example.com"
+                   required>
+
+            <label for="destination">Choose Destination:</label>
+
+            <select id="destination" name="destination" required>
+                <option value="">-- Select Destination --</option>
+                <option value="cultural">Sarawak Cultural Village</option>
+                <option value="santubong">Mount Santubong</option>
+                <option value="niah">Niah Park</option>
+                <option value="semenggoh">Semenggoh Wildlife Centre</option>
+                <option value="tumbina">Tumbina Park</option>
+                <option value="ecofarm">Green Ecofarm</option>
+            </select>
+
+            <label for="pax">Number of People:</label>
+            <input type="number"
+                   id="pax"
+                   name="pax"
+                   min="1"
+                   placeholder="Number of people"
+                   required>
+
+            <label for="date">Travel Date:</label>
+            <input type="date"
+                   id="date"
+                   name="date"
+                   required>
+
+            <input type="submit"
+                   value="Book Now"
+                   data-theme="b">
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div data-role="footer" data-theme="b">
+        <h4 class="footer-text">&copy; 2026 WonderWild</h4>
+    </div>
+</div>
+
+<!--PAGE 4-->
+<!--CONTACT US -->
+<div data-role="page" id="contact">
+    <!--Header-->
+    <div data-role="header" data-theme="b">
+        <a href="#contact" data-icon="phone" data-iconpos="notext">
+        </a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <!--Navigation-->
+    <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home" data-icon="home"> Home </a> 
+                </li>
+                <li>
+                    <a href="#tourpackage" data-icon="bullets"> Tour Packages </a>
+                </li>
+                <li>
+                    <a href="#booking" data-icon="shop"> Booking </a>
+                </li>
+                <li>
+                    <a href="#contact" class="ui-btn-active" data-icon="phone">Contact</a>
+                </li>
+        </ul>
+    </div>
+
+    <!--Contact Content -->
+    <div data-role="content">
+        <h2>Get in Touch</h2>
+        <p> We'd love to hear from you! Please fill out the form below.</p>
+
+        <!-- Contact Form -->
+         <form id="contactForm">
+
+            <!-- Name -->
+             <label for="name"> Name: </label>
+             <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+             <!--Email-->
+             <label for="email"> Email: </label>
+             <input type="email" name="email" id="email" placeholder="you@example.com" required>
+
+             <!-- Message -->
+              <label for="message">Message: </label>
+              <textarea name="message" id="message" placeholder="Type your message here..." required> </textarea>
+
+              <!--Submit-->
+              <input type="submit" value="Send Message" data-theme="b">
+         </form>
+    </div>
+
+    <script>
+    function handleSubmit(e) {
+      e.preventDefault(); // stop the page from refreshing
+      var name = document.getElementById("name").value;
+      alert("Thank you, " + name + "! Your message has been received.");
+      e.target.reset(); // clear the form
+    }
+  </script>
+
+    <!-- FOOTER -->
+    <div data-role="footer" data-theme="b">
+        <h4 class="footer-text">&copy; 2026 WonderWild</h4>
+    </div>
+ </div>
+</body>
+</html>
